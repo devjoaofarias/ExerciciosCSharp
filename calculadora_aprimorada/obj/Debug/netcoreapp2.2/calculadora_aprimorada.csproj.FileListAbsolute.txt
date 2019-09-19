@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\obj\Debug\netcoreapp2.2\calculadora_aprimorada.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\obj\Debug\netcoreapp2.2\calculadora_aprimorada.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\obj\Debug\netcoreapp2.2\calculadora_aprimorada.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\obj\Debug\netcoreapp2.2\calculadora_aprimorada.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\bin\Debug\netcoreapp2.2\calculadora_aprimorada.deps.json
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\bin\Debug\netcoreapp2.2\calculadora_aprimorada.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\bin\Debug\netcoreapp2.2\calculadora_aprimorada.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\bin\Debug\netcoreapp2.2\calculadora_aprimorada.dll
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\bin\Debug\netcoreapp2.2\calculadora_aprimorada.pdb
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\obj\Debug\netcoreapp2.2\calculadora_aprimorada.dll
+C:\Users\24055965800\Documents\Exercicios\calculadora_aprimorada\obj\Debug\netcoreapp2.2\calculadora_aprimorada.pdb
