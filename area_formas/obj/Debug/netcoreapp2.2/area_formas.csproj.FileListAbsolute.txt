@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\area_formas\obj\Debug\netcoreapp2.2\area_formas.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\area_formas\obj\Debug\netcoreapp2.2\area_formas.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\area_formas\obj\Debug\netcoreapp2.2\area_formas.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\area_formas\obj\Debug\netcoreapp2.2\area_formas.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\area_formas\bin\Debug\netcoreapp2.2\area_formas.deps.json
+C:\Users\24055965800\Documents\Exercicios\area_formas\bin\Debug\netcoreapp2.2\area_formas.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\area_formas\bin\Debug\netcoreapp2.2\area_formas.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\area_formas\bin\Debug\netcoreapp2.2\area_formas.dll
+C:\Users\24055965800\Documents\Exercicios\area_formas\bin\Debug\netcoreapp2.2\area_formas.pdb
+C:\Users\24055965800\Documents\Exercicios\area_formas\obj\Debug\netcoreapp2.2\area_formas.dll
+C:\Users\24055965800\Documents\Exercicios\area_formas\obj\Debug\netcoreapp2.2\area_formas.pdb
