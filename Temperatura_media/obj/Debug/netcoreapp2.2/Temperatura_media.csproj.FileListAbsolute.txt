@@ -1,0 +1,4 @@
+C:\Users\24055965800\Documents\Exercicios\Temperatura_media\obj\Debug\netcoreapp2.2\Temperatura_media.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\Temperatura_media\obj\Debug\netcoreapp2.2\Temperatura_media.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Temperatura_media\obj\Debug\netcoreapp2.2\Temperatura_media.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Temperatura_media\obj\Debug\netcoreapp2.2\Temperatura_media.AssemblyInfo.cs
