@@ -6,24 +6,24 @@ namespace Temperatura_media
     {
         static void Main(string[] args)
         {
-            double temperaturas = new double[12];
+            double[] temperaturas = new double[12];
             double maior = 0;
             double menor = 0;
             for(int meses = 0; meses < 12; meses++) {
 
                 Console.Write($"Digite a temperatura do mês {meses + 1}: ");
-                Temperaturas[meses] = double.Parse(Console.ReadLine());
+                temperaturas[meses] = double.Parse(Console.ReadLine());
             }
             maior = temperaturas[0];    
             menor = temperaturas[0];
-            foreach(double Temp in temperaturas) {
+            foreach(double temp in temperaturas) {
             
                 if(temp > maior)
                 {
                     maior = temp;
                 }else if (temp < menor)
                 {
-                    menor = Temp;
+                    menor = temp;
                 }
             }
             Console.WriteLine($"A maior temperatura é de {maior} graus!");
