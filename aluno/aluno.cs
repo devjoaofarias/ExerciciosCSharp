@@ -24,8 +24,9 @@ namespace aluno
         public void setnotas (int bi, int nota){
             int i = bi - 1;
             if ((i < 0) || (i > 3)){
-                //Condiçao de erro;
                 throw new ArgumentOutOfRangeException($"")
+                //Condiçao de erro;
+                //Condiçao de erro;
             }
 
         }
