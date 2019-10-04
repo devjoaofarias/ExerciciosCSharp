@@ -22,7 +22,7 @@ namespace MateODragao {
 
                         Guerreiro guerreiro = CriarGuerreiro ();
 
-                        Dragao dragao = CriarDragao();
+                        Dragao dragao = CriarDragao ();
 
                         // *INCIO - PRIMEIRO DIÁLOGO 
                         CriarDialogo (guerreiro.Nome, $"{dragao.Nome}, seu louco! vim te quebrar!");
