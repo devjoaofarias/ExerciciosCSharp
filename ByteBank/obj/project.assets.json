@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\SaladeAula.csproj",
-      "projectName": "SaladeAula",
-      "projectPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\SaladeAula.csproj",
+      "projectUniqueName": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\ByteBank\\ByteBank.csproj",
+      "projectName": "ByteBank",
+      "projectPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\ByteBank\\ByteBank.csproj",
       "packagesPath": "C:\\Users\\alexandre.fukaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\SaladeAula\\SaladeAula\\obj\\",
+      "outputPath": "C:\\Users\\alexandre.fukaya\\Documents\\Exercicios_Manha\\ByteBank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
