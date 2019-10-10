@@ -40,18 +40,19 @@ namespace TodoList {
                 System.Console.WriteLine ("2 - Remover item");
                 System.Console.WriteLine ("3 - Sair do programa");
                 System.Console.WriteLine ("Opção: ");
-                
+
                 opcao = int.Parse (Console.ReadLine ());
 
                 switch (opcao) {
                     case 1:
-                        AddItem(todoList);
+                        AddItem (todoList);
                         break;
                     case 2:
-                        RemoveItem(todoList);
+                        RemoveItem (todoList);
                         break;
                     case 3:
                         System.Console.WriteLine ("Tchau!");
+                        SaveItem (todoList, filePath);
                         break;
                     default:
                         System.Console.WriteLine ("Opção inválida!");
@@ -96,27 +97,54 @@ namespace TodoList {
                 ListaItens (todoList);
                 System.Console.WriteLine ();
                 System.Console.WriteLine ("Digite o ID ou X para terminar");
-                System.Console.WriteLine("ID: ");
-                string id = Console.ReadLine();
+                System.Console.WriteLine ("ID: ");
+                string id = Console.ReadLine ();
 
-                if (id.ToLower() == "x") {
+                if (id.ToLower () == "x") {
                     break;
                 } else {
-                    index = int.Parse(id) - 1;
+                    index = int.Parse (id) - 1;
                 }
-                
-                if((index < 0) || (index > todoList.Count - 1)) {
-                    System.Console.WriteLine("ID Inválido");
-                    System.Console.WriteLine("Pressione <enter> para confirmar");
-                    Console.ReadLine();
-                    
+
+                if ((index < 0) || (index > todoList.Count - 1)) {
+                    System.Console.WriteLine ("ID Inválido");
+                    System.Console.WriteLine ("Pressione <enter> para confirmar");
+                    Console.ReadLine ();
+
                 } else {
-                    todoList.RemoveAt(index);
+                    todoList.RemoveAt (index);
                 }
-                
 
             } while (true);
 
+        }
+
+        #region Grava a lista no arquivo
+        static void SaveItem (List<TodoItem> lista, string filePath) {
+            List<string> linhas = new List<string>();
+            linhas.Add("Titulo, Nota");
+        foreach (TodoItem item in lista) {
+                string titulo = "\"" + item.Titulo + "\"";
+                string nota = "\"" + item.Nota + "\"";
+                linhas.Add(titulo + "," + nota);
+            }
+            string tryAgain = "";
+            do {
+                try {
+                    File.WriteAllLines(filePath, linhas);
+                    tryAgain = "n";
+                } catch(IOException e) {
+                    System.Console.WriteLine("Erro na gravação do arquivo.");
+                    System.Console.WriteLine(e.Message);
+                    do {
+                        System.Console.WriteLine("Deseja tentar novamente?");
+                        tryAgain = Console.ReadLine().ToLower();
+                    } while (tryAgain == "s" || tryAgain == "n");
+                }
+            } while (tryAgain != "n");
+
+
+        #endregion
         }
     }
 }
