@@ -24,7 +24,7 @@ namespace SENAIzinho {
 
             switch (OpcaoMenu) {
                 case 1:
-                    Sala sala = AlocarAluno ();
+                    
                     break;
                 case 2:
 
