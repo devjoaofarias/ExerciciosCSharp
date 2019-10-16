@@ -2,6 +2,10 @@ using System;
 using EscolaDeRock.interfaces;
 namespace EscolaDeRock.Models {
     public class Violao : InstrumentoMusical, IMelodia, IPercussao, IHarmonia {
+        public bool TocarSolo () {
+            System.Console.WriteLine ("Tocando solo do violão!");
+            return true;
+        }
         public bool TocarAcordes () {
             System.Console.WriteLine ("Tocando acordes de violao!");
             return true;
@@ -10,10 +14,6 @@ namespace EscolaDeRock.Models {
             System.Console.WriteLine ("Mantendo ritmo do violão!");
             return true;
 
-        }
-        public bool TocarSolo () {
-            System.Console.WriteLine ("Tocando solo do violão!");
-            return true;
         }
 
     }
