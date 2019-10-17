@@ -31,11 +31,11 @@ namespace SaladeAula {
         public void setNotas (int bimestre, double nota) {
             int i = bimestre - 1;
             if ((i < 0) || (i > 4)) {
-                //Condição de Erro;
-                throw new ArgumentOutOfRangeException ($"{nameof(setNotas)} must be between 1 and 4.");
+                //Condição de Erro;
+                throw new ArgumentOutOfRangeException ($"{nameof(setNotas)} must be between 1 and 4.");
             } else if (nota < 0 || nota > 10) {
-                //Condição de Erro;
-                throw new ArgumentOutOfRangeException ($"{nameof(setNotas)} must be between 0 and 10.");
+                //Condição de Erro;
+                throw new ArgumentOutOfRangeException ($"{nameof(setNotas)} must be between 0 and 10.");
             } else {
                 notas[i] = nota;
             }
