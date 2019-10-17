@@ -70,7 +70,7 @@ namespace EscolaDeRock {
                             break;
                     }
                     #endregion
-                } while (false);
+                } while (!formacaoEscolhida);
             } while (!querSair);
         }
     }
