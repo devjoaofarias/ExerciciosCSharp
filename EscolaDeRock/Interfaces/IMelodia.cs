@@ -1,6 +1,6 @@
 using System;
 using EscolaDeRock.Models;
-namespace EscolaDeRock.interfaces {
+namespace EscolaDeRock.Interfaces {
     public interface IMelodia {
         bool TocarSolo ();
     }
