@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\bin\Debug\netcoreapp2.2\LitrosGasolina.deps.json
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\bin\Debug\netcoreapp2.2\LitrosGasolina.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\bin\Debug\netcoreapp2.2\LitrosGasolina.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\bin\Debug\netcoreapp2.2\LitrosGasolina.dll
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\bin\Debug\netcoreapp2.2\LitrosGasolina.pdb
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\obj\Debug\netcoreapp2.2\LitrosGasolina.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\obj\Debug\netcoreapp2.2\LitrosGasolina.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\obj\Debug\netcoreapp2.2\LitrosGasolina.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\obj\Debug\netcoreapp2.2\LitrosGasolina.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\obj\Debug\netcoreapp2.2\LitrosGasolina.dll
+C:\Users\24055965800\Documents\Exercicios\LitrosGasolina\obj\Debug\netcoreapp2.2\LitrosGasolina.pdb

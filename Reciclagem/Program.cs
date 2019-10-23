@@ -21,12 +21,10 @@ namespace Reciclagem {
 
             switch (opcao) {
                 case 1:
-                    {
                         Garrafa garrafa = new Garrafa ();
-                        Console.BackgroundColor = ConsoleColor.Green;
-                        garrafa.Verde ();
+                        Console.BackgroundColor = ConsoleColor.DarkGreen;
+                        garrafa.Verde();
                         Console.BackgroundColor = ConsoleColor.Black;     
-                    }
                     break;
                 case 2:
                         GarrafaPET garrafaPet = new GarrafaPET ();
@@ -39,7 +37,6 @@ namespace Reciclagem {
                         Console.BackgroundColor = ConsoleColor.Gray;
                         guardaChuva.Cinza();
                         Console.BackgroundColor = ConsoleColor.Black;
-
                     break;
                 case 4:
                         Latinha latinha = new Latinha();
@@ -61,6 +58,10 @@ namespace Reciclagem {
                     default: System.Console.WriteLine("Opção Inválida!");
                     break;
             }
+        }
+        public static void ReciclarNovo(IPapel papel)
+        {
+
         }
 
     }

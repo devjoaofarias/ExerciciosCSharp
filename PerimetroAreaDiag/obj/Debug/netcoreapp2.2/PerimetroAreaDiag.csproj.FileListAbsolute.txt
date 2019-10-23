@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\bin\Debug\netcoreapp2.2\PerimetroAreaDiag.deps.json
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\bin\Debug\netcoreapp2.2\PerimetroAreaDiag.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\bin\Debug\netcoreapp2.2\PerimetroAreaDiag.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\bin\Debug\netcoreapp2.2\PerimetroAreaDiag.dll
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\bin\Debug\netcoreapp2.2\PerimetroAreaDiag.pdb
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\obj\Debug\netcoreapp2.2\PerimetroAreaDiag.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\obj\Debug\netcoreapp2.2\PerimetroAreaDiag.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\obj\Debug\netcoreapp2.2\PerimetroAreaDiag.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\obj\Debug\netcoreapp2.2\PerimetroAreaDiag.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\obj\Debug\netcoreapp2.2\PerimetroAreaDiag.dll
+C:\Users\24055965800\Documents\Exercicios\PerimetroAreaDiag\obj\Debug\netcoreapp2.2\PerimetroAreaDiag.pdb

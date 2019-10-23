@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\bin\Debug\netcoreapp2.2\TrocaValores.deps.json
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\bin\Debug\netcoreapp2.2\TrocaValores.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\bin\Debug\netcoreapp2.2\TrocaValores.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\bin\Debug\netcoreapp2.2\TrocaValores.dll
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\bin\Debug\netcoreapp2.2\TrocaValores.pdb
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\obj\Debug\netcoreapp2.2\TrocaValores.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\obj\Debug\netcoreapp2.2\TrocaValores.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\obj\Debug\netcoreapp2.2\TrocaValores.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\obj\Debug\netcoreapp2.2\TrocaValores.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\obj\Debug\netcoreapp2.2\TrocaValores.dll
+C:\Users\24055965800\Documents\Exercicios\TrocaValores\obj\Debug\netcoreapp2.2\TrocaValores.pdb

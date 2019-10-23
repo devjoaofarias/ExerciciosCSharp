@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\obj\Debug\netcoreapp2.2\CelsiusFahrenheit.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\obj\Debug\netcoreapp2.2\CelsiusFahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\obj\Debug\netcoreapp2.2\CelsiusFahrenheit.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\obj\Debug\netcoreapp2.2\CelsiusFahrenheit.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\bin\Debug\netcoreapp2.2\CelsiusFahrenheit.deps.json
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\bin\Debug\netcoreapp2.2\CelsiusFahrenheit.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\bin\Debug\netcoreapp2.2\CelsiusFahrenheit.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\bin\Debug\netcoreapp2.2\CelsiusFahrenheit.dll
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\bin\Debug\netcoreapp2.2\CelsiusFahrenheit.pdb
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\obj\Debug\netcoreapp2.2\CelsiusFahrenheit.dll
+C:\Users\24055965800\Documents\Exercicios\CelsiusFahrenheit\obj\Debug\netcoreapp2.2\CelsiusFahrenheit.pdb
