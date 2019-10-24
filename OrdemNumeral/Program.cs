@@ -23,6 +23,8 @@ namespace OrdemNumeral {
                 System.Console.WriteLine ($"O 1º{num2} 2º{num1} 3º{num3}");
             } else if (num1 < num2 && num1 > num3 && num2 > num3) {
                 System.Console.WriteLine ($"O 1º{num3} 2º{num1} 3º{num2}");
+            } else {
+                System.Console.WriteLine("Números invalidos");
             }
         }
     }
