@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\obj\Debug\netcoreapp2.2\0a10Impar.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\obj\Debug\netcoreapp2.2\0a10Impar.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\obj\Debug\netcoreapp2.2\0a10Impar.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\obj\Debug\netcoreapp2.2\0a10Impar.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\bin\Debug\netcoreapp2.2\0a10Impar.deps.json
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\bin\Debug\netcoreapp2.2\0a10Impar.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\bin\Debug\netcoreapp2.2\0a10Impar.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\bin\Debug\netcoreapp2.2\0a10Impar.dll
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\bin\Debug\netcoreapp2.2\0a10Impar.pdb
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\obj\Debug\netcoreapp2.2\0a10Impar.dll
+C:\Users\24055965800\Documents\Exercicios\0a10Impar\obj\Debug\netcoreapp2.2\0a10Impar.pdb

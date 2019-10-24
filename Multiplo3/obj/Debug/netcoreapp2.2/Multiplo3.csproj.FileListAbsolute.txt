@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\bin\Debug\netcoreapp2.2\Multiplo3.deps.json
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\bin\Debug\netcoreapp2.2\Multiplo3.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\bin\Debug\netcoreapp2.2\Multiplo3.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\bin\Debug\netcoreapp2.2\Multiplo3.dll
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\bin\Debug\netcoreapp2.2\Multiplo3.pdb
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\obj\Debug\netcoreapp2.2\Multiplo3.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\obj\Debug\netcoreapp2.2\Multiplo3.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\obj\Debug\netcoreapp2.2\Multiplo3.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\obj\Debug\netcoreapp2.2\Multiplo3.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\obj\Debug\netcoreapp2.2\Multiplo3.dll
+C:\Users\24055965800\Documents\Exercicios\Multiplo3\obj\Debug\netcoreapp2.2\Multiplo3.pdb
