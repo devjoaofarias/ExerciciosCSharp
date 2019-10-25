@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\bin\Debug\netcoreapp2.2\MesDoAno.deps.json
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\bin\Debug\netcoreapp2.2\MesDoAno.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\bin\Debug\netcoreapp2.2\MesDoAno.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\bin\Debug\netcoreapp2.2\MesDoAno.dll
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\bin\Debug\netcoreapp2.2\MesDoAno.pdb
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\obj\Debug\netcoreapp2.2\MesDoAno.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\obj\Debug\netcoreapp2.2\MesDoAno.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\obj\Debug\netcoreapp2.2\MesDoAno.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\obj\Debug\netcoreapp2.2\MesDoAno.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\obj\Debug\netcoreapp2.2\MesDoAno.dll
+C:\Users\24055965800\Documents\Exercicios\MesDoAno\obj\Debug\netcoreapp2.2\MesDoAno.pdb

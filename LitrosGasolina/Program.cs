@@ -18,6 +18,7 @@ namespace LitrosGasolina
             Velocidade = float.Parse(Console.ReadLine());
             Litros = ((Tempo * Velocidade) / 12);
             System.Console.WriteLine($"Nessa sua viagem considerando que seu carro faz 12km/l você gastou \n{Litros} litros\nDemorou {Tempo} horas\nPercorreu {Tempo + Velocidade} Km! ");
+            //! SÓ FUNCIONA SE O SUÁRIO UTILIZAR VIRGULA, NAO PONTO!
         }
     }
 }

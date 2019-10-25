@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\Imc\obj\Debug\netcoreapp2.2\Imc.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\Imc\obj\Debug\netcoreapp2.2\Imc.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Imc\obj\Debug\netcoreapp2.2\Imc.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Imc\obj\Debug\netcoreapp2.2\Imc.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\Imc\bin\Debug\netcoreapp2.2\Imc.deps.json
+C:\Users\24055965800\Documents\Exercicios\Imc\bin\Debug\netcoreapp2.2\Imc.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\Imc\bin\Debug\netcoreapp2.2\Imc.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\Imc\bin\Debug\netcoreapp2.2\Imc.dll
+C:\Users\24055965800\Documents\Exercicios\Imc\bin\Debug\netcoreapp2.2\Imc.pdb
+C:\Users\24055965800\Documents\Exercicios\Imc\obj\Debug\netcoreapp2.2\Imc.dll
+C:\Users\24055965800\Documents\Exercicios\Imc\obj\Debug\netcoreapp2.2\Imc.pdb

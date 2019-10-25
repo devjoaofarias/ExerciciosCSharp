@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\bin\Debug\netcoreapp2.2\Infinitivo.deps.json
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\bin\Debug\netcoreapp2.2\Infinitivo.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\bin\Debug\netcoreapp2.2\Infinitivo.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\bin\Debug\netcoreapp2.2\Infinitivo.dll
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\bin\Debug\netcoreapp2.2\Infinitivo.pdb
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\obj\Debug\netcoreapp2.2\Infinitivo.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\obj\Debug\netcoreapp2.2\Infinitivo.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\obj\Debug\netcoreapp2.2\Infinitivo.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\obj\Debug\netcoreapp2.2\Infinitivo.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\obj\Debug\netcoreapp2.2\Infinitivo.dll
+C:\Users\24055965800\Documents\Exercicios\Infinitivo\obj\Debug\netcoreapp2.2\Infinitivo.pdb

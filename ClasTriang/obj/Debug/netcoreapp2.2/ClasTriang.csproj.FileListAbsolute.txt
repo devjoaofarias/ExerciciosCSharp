@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\obj\Debug\netcoreapp2.2\ClasTriang.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\obj\Debug\netcoreapp2.2\ClasTriang.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\obj\Debug\netcoreapp2.2\ClasTriang.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\obj\Debug\netcoreapp2.2\ClasTriang.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\bin\Debug\netcoreapp2.2\ClasTriang.deps.json
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\bin\Debug\netcoreapp2.2\ClasTriang.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\bin\Debug\netcoreapp2.2\ClasTriang.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\bin\Debug\netcoreapp2.2\ClasTriang.dll
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\bin\Debug\netcoreapp2.2\ClasTriang.pdb
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\obj\Debug\netcoreapp2.2\ClasTriang.dll
+C:\Users\24055965800\Documents\Exercicios\ClasTriang\obj\Debug\netcoreapp2.2\ClasTriang.pdb

@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\bin\Debug\netcoreapp2.2\ImpLimites.deps.json
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\bin\Debug\netcoreapp2.2\ImpLimites.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\bin\Debug\netcoreapp2.2\ImpLimites.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\bin\Debug\netcoreapp2.2\ImpLimites.dll
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\bin\Debug\netcoreapp2.2\ImpLimites.pdb
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\obj\Debug\netcoreapp2.2\ImpLimites.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\obj\Debug\netcoreapp2.2\ImpLimites.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\obj\Debug\netcoreapp2.2\ImpLimites.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\obj\Debug\netcoreapp2.2\ImpLimites.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\obj\Debug\netcoreapp2.2\ImpLimites.dll
+C:\Users\24055965800\Documents\Exercicios\ImpLimites\obj\Debug\netcoreapp2.2\ImpLimites.pdb
