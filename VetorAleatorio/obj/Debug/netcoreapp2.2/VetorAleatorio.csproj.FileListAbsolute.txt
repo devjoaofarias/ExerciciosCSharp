@@ -1,0 +1,11 @@
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\obj\Debug\netcoreapp2.2\VetorAleatorio.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\obj\Debug\netcoreapp2.2\VetorAleatorio.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\obj\Debug\netcoreapp2.2\VetorAleatorio.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\obj\Debug\netcoreapp2.2\VetorAleatorio.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\bin\Debug\netcoreapp2.2\VetorAleatorio.deps.json
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\bin\Debug\netcoreapp2.2\VetorAleatorio.runtimeconfig.json
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\bin\Debug\netcoreapp2.2\VetorAleatorio.runtimeconfig.dev.json
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\bin\Debug\netcoreapp2.2\VetorAleatorio.dll
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\bin\Debug\netcoreapp2.2\VetorAleatorio.pdb
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\obj\Debug\netcoreapp2.2\VetorAleatorio.dll
+C:\Users\24055965800\Documents\Exercicios\VetorAleatorio\obj\Debug\netcoreapp2.2\VetorAleatorio.pdb

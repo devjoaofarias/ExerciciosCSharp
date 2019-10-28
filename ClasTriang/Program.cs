@@ -17,14 +17,14 @@ namespace ClasTriang {
             System.Console.WriteLine ("Tamanho do lado 3: ");
             lado3 = float.Parse (Console.ReadLine ());
 
-            if ((lado1 == lado2) || (lado2 == lado3)) {
+            if ((lado1 == lado2) && (lado2 == lado3)) {
                 System.Console.WriteLine ("é possivel que esses comprimentos formem um triangulo EQUILATERO!");
 
-            } else if ((lado1 < lado2 + lado3) || (lado2 == lado3)) {
+            } else if ((lado1 < lado2 + lado3) && (lado2 == lado3)) {
                 System.Console.WriteLine ($"É possivel que esses comprimentos formem um triangulo ISÓSCELES");
-            } else if ((lado2 < lado1 + lado3) || (lado1 == lado3)) {
+            } else if ((lado2 < lado1 + lado3) && (lado1 == lado3)) {
                 System.Console.WriteLine ($"É possivel que esses comprimentos formem um triangulo ISÓSCELES");
-            } else if ((lado3 < lado1 + lado2) || (lado1 == lado2)) {
+            } else if ((lado3 < lado1 + lado2) && (lado1 == lado2)) {
                 System.Console.WriteLine ($"É possivel que esses comprimentos formem um triangulo ISÓSCELES");
             } else if (lado1 < lado2 + lado3) {
                 System.Console.WriteLine ("É possivel que esses comprimentos formem um triangulo ESCALENO!");
