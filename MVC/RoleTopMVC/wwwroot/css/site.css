@@ -35,7 +35,7 @@
   }
   /*! ARRUMAR AQUI! */
   #logo-area {
-      background-image: url(~/img/BALADA-desfocada.jpg);
+      background-image: url(~\img\BALADA-desfocada.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
