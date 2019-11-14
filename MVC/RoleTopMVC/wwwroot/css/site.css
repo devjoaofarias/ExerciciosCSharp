@@ -33,9 +33,9 @@
   h2 {
       text-decoration: none;
   }
-  /*! ARRUMAR AQUI! */
+
   #logo-area {
-      background-image: url(~\img\BALADA-desfocada.jpg);
+      background-image: url(/img/BALADA-desfocada.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -43,7 +43,6 @@
       justify-content: center;
       color: black;      
   }
-  /*! ARRUMAR AQUI! */
 
   #primeira-pagina {
       display: flex;

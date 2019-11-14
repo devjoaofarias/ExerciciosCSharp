@@ -2956,7 +2956,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 800
+    "CSharpLanguageVersion": 703
   },
   "RootNamespace": "RoleTopMVC",
   "Documents": [
@@ -2968,6 +2968,11 @@
     {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Cliente\\Usuario.cshtml",
+      "TargetPath": "Views\\Cliente\\Usuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2996,8 +3001,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Administrador\\Administrador.cshtml",
+      "TargetPath": "Views\\Administrador\\Administrador.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Cadastro\\Index.cshtml",
+      "TargetPath": "Views\\Cadastro\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Cliente\\Login.cshtml",
+      "TargetPath": "Views\\Cliente\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Calendario\\Index.cshtml",
+      "TargetPath": "Views\\Calendario\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
