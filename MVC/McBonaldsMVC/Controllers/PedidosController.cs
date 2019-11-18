@@ -8,12 +8,14 @@ using Microsoft.AspNetCore.Mvc;
 namespace McBonaldsMVC.Controllers {
     public class PedidosController : Controller {
 
-        HambuerguerRepository hambuerguerRepository = new HambuerguerRepository();
+        HamburguerRepository hamburguerRepository = new HamburguerRepository();
+        ShakeRepository shakeRepository = new ShakeRepository();
         public IActionResult Index () {
 
             PedidoViewModel pvm = new PedidoViewModel();
-            pvm.Hamburgueres = hambuerguerRepository.ObterTodos();
-            return View (pvm   );
+            pvm.Hamburgueres = hamburguerRepository.ObterTodos();
+            pvm.Shakes = shakeRepository.ObterTodos();
+            return View (pvm  );   
         }
         public IActionResult Registrar (IFormCollection form) {
 
@@ -23,15 +25,16 @@ namespace McBonaldsMVC.Controllers {
 
                 Pedido pedido = new Pedido ();
 
-                Shake shake = new Shake ();
-                shake.Nome = form["shake"];
-                shake.Preco = 0.0;
+                var nomeShake = form["shake"];
+                Shake shake = new Shake (
+                nomeShake,
+                shakeRepository.ObterPrecoDe(nomeShake));
                 pedido.Shake = shake;
 
-
-                Hamburguer hamburguer = new Hamburguer ();
-                hamburguer.Nome = form["hamburguer"];
-                hamburguer.Preco = 0.0;
+                var nomeHamburguer = form["hamburguer"];
+                Hamburguer hamburguer = new Hamburguer (
+                nomeHamburguer,
+                hamburguerRepository.ObterPrecoDe(nomeHamburguer));
                 pedido.Hamburguer = hamburguer;
 
                 Cliente cliente = new Cliente () {
@@ -45,7 +48,7 @@ namespace McBonaldsMVC.Controllers {
 
                 pedido.DataDoPedido = DateTime.Now;
 
-                pedido.PrecoTotal = 0.0;
+                pedido.PrecoTotal = hamburguer.Preco + shake.Preco;
 
                 pedidoRepository.Inserir(pedido);
                 return View ("Sucesso");

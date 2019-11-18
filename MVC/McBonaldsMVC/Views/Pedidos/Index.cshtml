@@ -36,15 +36,17 @@
                                 @hamburguer.Nome por @hamburguer.Preco 
                             </option>
                         }
-                        <option value="combo">Combo</option>
                     </select>
                 </div>
                 <div>
                     <label for="shake">Shake</label>
                     <select id="shake" name="shake">
                         <option value="" disabled selected>Selecione</option>
-                        <option>Chocolate</option>
-                        <option>Biscoito</option>
+                        <@foreach (var shake in Model.Shakes) {
+                            <option value=@shake.Nome>
+                                @shake.Nome por @shake.Preco 
+                            </option>
+                        }
                     </select>
                 </div>
             </div>
