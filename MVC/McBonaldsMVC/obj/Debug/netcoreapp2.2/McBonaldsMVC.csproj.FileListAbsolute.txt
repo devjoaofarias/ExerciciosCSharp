@@ -63,3 +63,4 @@ C:\Users\24055965800\Documents\Exercicios\MVC\McBonaldsMVC\obj\Debug\netcoreapp2
 C:\Users\24055965800\Documents\Exercicios\MVC\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 c:\Users\24055965800\Documents\Exercicios\MVC\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Pedidos\Index.g.cshtml.cs
 c:\Users\24055965800\Documents\Exercicios\MVC\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+c:\Users\24055965800\Documents\Exercicios\MVC\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Historico.g.cshtml.cs
