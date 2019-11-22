@@ -36,7 +36,7 @@ namespace McBonaldsMVC.Repositories {
         }
         
         private string PrepararRegistroCSV(Cliente cliente) {
-            return $"nome={cliente.Nome}; email={cliente.Email}; endereço={cliente.Endereco}; senha={cliente.Senha}; telefone={cliente.Telefone}; data_nascimento={cliente.DataNascimento}";
+            return $"nome={cliente.Nome};email={cliente.Email};endereço={cliente.Endereco};senha={cliente.Senha};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento}";
 
         }
     }
