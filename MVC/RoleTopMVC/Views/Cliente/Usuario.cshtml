@@ -1,5 +1,5 @@
+ <link href="~/css/styleusuario.css" rel="stylesheet" type="text/css">
 <style>
-        
         table {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             border-collapse: collapse;
@@ -27,7 +27,7 @@
                     <div id="usuario-barra">
                             <h1>USUÁRIO</h1> 
                     </div>
-                   <a id="botao-casinha" href="Role Top.html"> <img id="botao-casinha" src="img/botao-casa.png" alt="botao para voltar"> </a>   
+                   <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>   
             </div>
         <div id="fundo"> 
             <table> 
@@ -186,10 +186,10 @@
             </table>
             <br>
             <div id="botao-agendar">
-               <a href="calendario.html"> <h3>AGENDE UM HORÁRIO</h3> </a>
+               <a id="bt-Calendario" asp-controller="Calendario" asp-action="Index"> <h3>AGENDE UM HORÁRIO</h3> </a>
             </div>
             <div id="img-chat"> 
-                    <a class="chat" href="">  <img class="chat" src="img/CHAT.png" alt="chatbox"> </a>
+                    <a class="chat" href="">  <img class="chat" src="~/img/CHAT.png" alt="chatbox"> </a>
             </div>
         </div>
     </main>

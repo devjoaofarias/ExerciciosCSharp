@@ -1,11 +1,11 @@
-
+ <link href="~/css/stylelogin.css" rel="stylesheet" type="text/css">
 <body>
     <main>
             <div id="fundo-img"> 
                     <div id="login-barra">
                     <h1>LOGIN</h1>
                     </div>
-                    <a id="botao-casinha" href="Role Top.html"> <img id="botao-casinha" src="img/botao-casa.png" alt="botao para voltar"> </a>
+                    <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>
             </div>
                     <section class="fundo-login">
                         <div id="tipo-de-login">
@@ -16,20 +16,20 @@
                             </div>
                         </div>
                         <div id="formulario">  
-                               <form method="POST" action="RoleTop.html">
+                               <form method="POST" action='@Url.Action("Login" , "Cliente")'>
                                     <input type="text" name="email" placeholder="ENTRE COM SEU EMAIL, CPF OU NÚMERO">
                                         <br> <br>
                                     <input type="password" name="senha" placeholder="SENHA">
                                         <br> <br>  
-                                    <input type="submit" value="ENTRAR">
+                                    <input type="submit" value="ENTRAR" asp-controller="Cliente" asp-action="Usuario">
                                     <a href="">ESQUECEU A SENHA? CLIQUE AQUI!</a>
                                     <br>
-                                    <a href="administrador.html"> ENTRAR COMO ADMINISTRADOR</a>
+                                    <a id="bt-Administrador" asp-controller="Administrador" asp-action="Administrador"> ENTRAR COMO ADMINISTRADOR</a>
                                     <br>
+                                    <a id="bt-cadastro" asp-controller="Cadastro" asp-action="Cadastro"> CASO AINDA NAO TENHA SE CADASTRADO: CLIQUE AQUI!</a>
                                </form>
-                                     <div id="caso-ainda"><a href="cadastro.html"> CASO AINDA NAO TENHA SE CADASTRADO: CLIQUE AQUI!</a></div>
-                                    </div>
                          </div>
+                                    </div>
                     </section>
             </main>
     </body>

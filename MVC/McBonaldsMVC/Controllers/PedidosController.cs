@@ -7,73 +7,80 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace McBonaldsMVC.Controllers {
     public class PedidosController : AbstractController {
+    
+        ClienteRepository clienteRepository = new ClienteRepository ();
+        PedidoRepository pedidoRepository = new PedidoRepository ();
+        HamburguerRepository hamburguerRepository = new HamburguerRepository ();
+        ShakeRepository shakesRepository = new ShakeRepository (); //Shake repositorio em branco tem que ser igual a 
+        public IActionResult Index () // colocar o nome do arquivo que está na página 
+        {
+            PedidoViewModel pvm = new PedidoViewModel ();
+            pvm.Hamburgueres = hamburguerRepository.ObterTodos ();
 
-        ClienteRepository clienteRepository = new ClienteRepository();
-        PedidoRepository pedidoRepository = new PedidoRepository();
-        HamburguerRepository hamburguerRepository = new HamburguerRepository();
-        ShakeRepository shakeRepository = new ShakeRepository();
-        public IActionResult Index () {
-            
-            var hamburgueres = hamburguerRepository.ObterTodos();
-            var shakes = shakeRepository.ObterTodos();
+            pvm.Shakes = shakesRepository.ObterTodos (); // o shake repository que esta em verde
 
-            PedidoViewModel pedido = new PedidoViewModel();
-            pedido.Hamburgueres = hamburgueres;
-            pedido.Shakes = shakes;
-            
-            var emailCliente = ObterUsuarioSession();
-
-            if (!string.IsNullOrEmpty(emailCliente)) {
-                clienteRepository.ObterPor(emailCliente);
+            var emailCliente =  ObterUsuarioSession();
+            if(!string .IsNullOrEmpty(emailCliente))
+            {
+                pvm.Cliente = clienteRepository.ObterPor(emailCliente);
             }
+            
 
             var nomeUsuario = ObterUsuarioNomeSession();
-            if (!string.IsNullOrEmpty(nomeUsuario)) {
-                pedido.NomeCliente = nomeUsuario;
+            if(!string.IsNullOrEmpty(nomeUsuario))
+            {
+                pvm.NomeCliente = nomeUsuario;
             }
-
-            return View (pedido );   
+            pvm.NomeView = "Pedido";
+            pvm.UsuarioEmail = ObterUsuarioSession();
+            pvm.UsuarioNome = ObterUsuarioNomeSession();
+            return View (pvm);
         }
-        public IActionResult Registrar (IFormCollection form) {
 
-            ViewData["Action"] = "Pedidos";
-            try {  
-                PedidoRepository pedidoRepository = new PedidoRepository ();
+        public object Registrar (IFormCollection form) {
+            Shake shake = new Shake ();
+            Pedido pedido = new Pedido ();
+            var nomeShake = form["shake"];
+            shake = new Shake (nomeShake, shakesRepository.ObterPrecoDe (nomeShake));
+            shake.Nome = form["shake"];
+            shake.preco = shakesRepository.ObterPrecoDe (nomeShake);
 
-                Pedido pedido = new Pedido ();
 
-                var nomeShake = form["shake"];
-                Shake shake = new Shake (
-                nomeShake,
-                shakeRepository.ObterPrecoDe(nomeShake));
-                pedido.Shake = shake;
+            pedido.Shake = shake; //!
+            var nomeHamburguer = form["hamburguer"];
+            Hamburguer hamburguer = new Hamburguer (nomeHamburguer, hamburguerRepository.ObterPrecoDe (nomeHamburguer));
+            hamburguer.Nome = form["hamburguer"];
+            hamburguer.preco = 0.0;
 
-                var nomeHamburguer = form["hamburguer"];
-                Hamburguer hamburguer = new Hamburguer (
-                nomeHamburguer,
-                hamburguerRepository.ObterPrecoDe(nomeHamburguer));
-                pedido.Hamburguer = hamburguer;
+            pedido.Hamburguer = hamburguer; //!
 
-                Cliente cliente = new Cliente () {
-                    Nome = form["nome"],
-                    Endereco = form["endereco"],
-                    Telefone = form["telefone"],
-                    Email = form["email"]
-                };
+            Cliente cliente = new Cliente ();
+            cliente.Nome = form["nome"];
+            cliente.Endereco = form["endereco"];
+            cliente.Telefone = form["telefone"];
+            cliente.Email = form["email"];
 
-                pedido.Cliente = cliente;
+            pedido.Cliente = cliente; //!
 
-                pedido.DataDoPedido = DateTime.Now;
+            pedido.DataDoPedido = DateTime.Now; //!Now pega a data e a hora
 
-                pedido.PrecoTotal = hamburguer.Preco + shake.Preco;
+            pedido.PrecoTotal = hamburguer.preco + shake.preco; //!
 
-                pedidoRepository.Inserir(pedido);
-                return View ("Sucesso");
-            } catch (Exception e) {
-                System.Console.WriteLine(e.StackTrace);
-                return View ("Error");
+            if (pedidoRepository.Inserir (pedido)) {
+                return View ("Sucesso", new BaseViewModel()
+                {
+                    NomeView = "Sucesso",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+
+                });
+            } else {
+                return View ("Erro",new BaseViewModel(){
+                    NomeView = "Erro",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession(),
+                });
             }
-
         }
     }
 }

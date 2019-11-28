@@ -1,3 +1,4 @@
+<link href="~/css/stylecalendario.css" rel="stylesheet" type="text/css">
         <style> 
  table {
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,7 +26,7 @@
                         <div id="calendario-barra">
                                 <h1>AGENDA</h1> 
                         </div>
-                       <a id="botao-casinha" href="Role Top.html"> <img id="botao-casinha" src="img/botao-casa.png" alt="botao para voltar"> </a>
+                       <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>   
                 </div>
                 <div id="fundo">
                         <h2 id="mes">SETEMBRO 2019</h2>
@@ -91,7 +92,7 @@
                 <p><b> VERDE - DISPONÍVEL <br> VERMELHO - INDISPONÍVEL </b></p>    
             </div>
                 <div id="img-chat"> 
-                  <a class="chat" href="">  <img class="chat" src="img/CHAT.png" alt="chatbox"> </a>
+                  <a class="chat" href="">  <img class="chat" src="~/img/CHAT.png" alt="chatbox"> </a>
                 </div>
                 </div>
         </main>
