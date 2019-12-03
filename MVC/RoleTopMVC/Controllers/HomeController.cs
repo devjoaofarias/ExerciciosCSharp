@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using RoleTopMVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 
 namespace RoleTopMVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : AbstractController
     {
         public IActionResult Index()
-        {   ViewData["NomeView"] = "Home";
-            return View();
+        {   return View(new BaseViewModel()
+            {
+                NomeView = "Home",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+                
+            });
         }
 
         public IActionResult Privacy()

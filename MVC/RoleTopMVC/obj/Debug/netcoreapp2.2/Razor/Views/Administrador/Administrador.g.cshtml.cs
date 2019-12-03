@@ -18,8 +18,13 @@ using RoleTopMVC;
 
 #line default
 #line hidden
+#line 2 "C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\Views\_ViewImports.cshtml"
+using RoleTopMVC.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"374b5c08891f7d6bcfc864d9a908cc2ce7f52c04", @"/Views/Administrador/Administrador.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"321353e4db71edb1f3786349634a18fdac5dc024", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1fae5be29b1d0446bbdb7fe81a11990f47b34647", @"/Views/_ViewImports.cshtml")]
     public class Views_Administrador_Administrador : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/css/styleadministrador.css"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -54,7 +59,7 @@ using RoleTopMVC;
             WriteLiteral(" ");
             EndContext();
             BeginContext(1, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "374b5c08891f7d6bcfc864d9a908cc2ce7f52c045289", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "374b5c08891f7d6bcfc864d9a908cc2ce7f52c045440", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -115,7 +120,7 @@ WriteAttributeValue("", 1006, Url.Action("Index" , "Home"), 1006, 29, false);
             WriteLiteral("> ");
             EndContext();
             BeginContext(1049, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "374b5c08891f7d6bcfc864d9a908cc2ce7f52c048058", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "374b5c08891f7d6bcfc864d9a908cc2ce7f52c048209", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

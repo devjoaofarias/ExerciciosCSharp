@@ -1,4 +1,3 @@
-using System;
 namespace McBonaldsMVC.Enums
 {
     public enum StatusPedido : uint

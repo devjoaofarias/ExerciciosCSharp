@@ -2976,6 +2976,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\24055965800\\Documents\\Exercicios\\MVC\\RoleTopMVC\\Views\\Shared\\Erro.cshtml",
+      "TargetPath": "Views\\Shared\\Erro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\24055965800\\Documents\\Exercicios\\MVC\\RoleTopMVC\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"

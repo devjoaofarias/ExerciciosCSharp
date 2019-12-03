@@ -17,14 +17,12 @@
                         </div>
                         <div id="formulario">  
                                <form method="POST" action='@Url.Action("Login" , "Cliente")'>
-                                    <input type="text" name="email" placeholder="ENTRE COM SEU EMAIL, CPF OU NÚMERO">
+                                    <input id="email" type="email" name="email" placeholder="ENTRE COM SEU EMAIL, CPF OU NÚMERO">
                                         <br> <br>
-                                    <input type="password" name="senha" placeholder="SENHA">
+                                    <input id="senha" type="password" name="senha" placeholder="SENHA">
                                         <br> <br>  
-                                    <input type="submit" value="ENTRAR" asp-controller="Cliente" asp-action="Usuario">
+                                    <input type="submit" value="ENTRAR">
                                     <a href="">ESQUECEU A SENHA? CLIQUE AQUI!</a>
-                                    <br>
-                                    <a id="bt-Administrador" asp-controller="Administrador" asp-action="Administrador"> ENTRAR COMO ADMINISTRADOR</a>
                                     <br>
                                     <a id="bt-cadastro" asp-controller="Cadastro" asp-action="Cadastro"> CASO AINDA NAO TENHA SE CADASTRADO: CLIQUE AQUI!</a>
                                </form>

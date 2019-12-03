@@ -30,6 +30,36 @@
   /*****************************************************************************************************************************************
                                                                       FIM-NAV
   ******************************************************************************************************************************************/ 
+  #div-para-arrumar {
+      display: flex; 
+      align-items: flex-end;
+      justify-content: center;
+      background-color: #a72abe;
+      color: aliceblue;
+      height: 450px;
+      width: 100%;
+  }
+
+  #div-para-arrumar2 {
+    display: flex; 
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #a72abe;
+    color: aliceblue;
+    height: 450px;
+    width: 100%;
+}
+
+  #div-para-arrumar > h2 {
+      font-size: 260%;
+      margin-bottom: 1%;
+  }
+
+  #div-para-arrumar2 > p {
+      font-size: 120%;
+  }
+  
+ 
   h2 {
       text-decoration: none;
   }

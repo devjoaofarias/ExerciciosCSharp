@@ -18,8 +18,13 @@ using RoleTopMVC;
 
 #line default
 #line hidden
+#line 2 "C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\Views\_ViewImports.cshtml"
+using RoleTopMVC.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2130a56a76d654582505e024ede32661d060a62d", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"321353e4db71edb1f3786349634a18fdac5dc024", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1fae5be29b1d0446bbdb7fe81a11990f47b34647", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("bt-login"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -54,7 +59,7 @@ using RoleTopMVC;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 9193, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130a56a76d654582505e024ede32661d060a62d5586", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130a56a76d654582505e024ede32661d060a62d5737", async() => {
                 BeginContext(6, 4288, true);
                 WriteLiteral(@"
     <main>
@@ -135,7 +140,7 @@ using RoleTopMVC;
                 WriteLiteral("evolvemos todo seu dinheiro. <br>   \r\n                    </div>\r\n                </div>\r\n\r\n                    </div> \r\n            <div id=\"chat-faça\"> \r\n                        <h2><strong>");
                 EndContext();
                 BeginContext(4294, 192, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130a56a76d654582505e024ede32661d060a62d10432", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130a56a76d654582505e024ede32661d060a62d10583", async() => {
                     BeginContext(4355, 127, true);
                     WriteLiteral("\r\n                             FAÇA SEU ORÇAMENTO <br/>\r\n                             CLIQUE AQUI!!! \r\n                        ");
                     EndContext();
@@ -176,7 +181,7 @@ using RoleTopMVC;
                         ");
                 EndContext();
                 BeginContext(5090, 95, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2130a56a76d654582505e024ede32661d060a62d12946", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2130a56a76d654582505e024ede32661d060a62d13097", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -208,7 +213,7 @@ using RoleTopMVC;
                         <h2><strong>");
                 EndContext();
                 BeginContext(5885, 198, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130a56a76d654582505e024ede32661d060a62d15189", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130a56a76d654582505e024ede32661d060a62d15340", async() => {
                     BeginContext(5946, 133, true);
                     WriteLiteral("\r\n                                FAÇA SEU ORÇAMENTO <br/>\r\n                                CLIQUE AQUI!!! \r\n                        ");
                     EndContext();
