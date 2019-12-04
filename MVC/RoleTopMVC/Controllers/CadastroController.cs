@@ -28,16 +28,23 @@ public class CadastroController : AbstractController {
                 form["telefone"],
                 form["senha"]);
 
-                cliente.TipoUsuario = (uint) TiposUsuario.CLIENTE;
 
-            clienteRepository.Inserir (cliente);
+            cliente.TipoUsuario = (uint) TiposUsuario.CLIENTE;
+            if(!string.IsNullOrEmpty(form["name"]) && !string.IsNullOrEmpty(form["email"]) && !string.IsNullOrEmpty(form["cpf"]) && !string.IsNullOrEmpty(form["telefone"]) && !String.IsNullOrEmpty(form["senha"])) {
+                clienteRepository.Inserir (cliente);
 
             return View ("Sucesso", new RespostaViewModel () {
                 NomeView = "Cadastro",
                     UsuarioEmail = ObterUsuarioSession (),
-                    UsuarioNome = ObterUsuarioNomeSession ()
+                    UsuarioNome = ObterUsuarioNomeSession ()});
+            } else {
+                return View ("Erro", new RespostaViewModel() {
+                    NomeView = "Cadastro",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
 
-            });
         } catch (Exception e) {
             System.Console.WriteLine (e.StackTrace);
             return View ("Erro", new RespostaViewModel () {

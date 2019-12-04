@@ -2966,6 +2966,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\24055965800\\Documents\\Exercicios\\MVC\\RoleTopMVC\\Views\\Cliente\\Pagamento.cshtml",
+      "TargetPath": "Views\\Cliente\\Pagamento.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\24055965800\\Documents\\Exercicios\\MVC\\RoleTopMVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

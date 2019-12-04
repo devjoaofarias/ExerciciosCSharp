@@ -1,0 +1,47 @@
+ <link href="~/css/stylepagamento.css" rel="stylesheet" type="text/css">
+<html>
+    <body>
+        <main>
+            <div id="fundo"> 
+                    <div id="pagamento-barra">
+                    <h1>Pagamento</h1>
+                    </div>
+                    <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>   
+                        <div id = "organizar">
+                            <div id = "div-esquerda">
+                                <form action="">
+                                    <p>NÚMERO DO CARTÃO:</p>
+                                <input id="numero-cartao" type="numero-cartao" name="numero-cartao" placeholder="NÚMERO DO CARTÃO">
+                                <br> <br>  
+                                    <p>NOME DO PROPRIETÁRIO:</p> 
+                                <input id="nome-cartao" type="nome-cartao" name="nome-cartao" placeholder="NOME DO PROPRIETÁRIO">
+                                <br> <br>   
+                                    <p>CVV:</p>
+                                <input id="cvv" type="cvv" name="cvv" placeholder="CVV">
+                                <br> <br>
+                                    <p>DATA DE VALIDADE:</p>   
+                                <input id="data-validade" type="data" name="data-validade" placeholder="DATA DE VALIDADE">   
+                                <br> <br>
+                                <img id="Bandeira-cartoes" src="~/img/cartoes_.png" alt="Bandeiras do cartão">
+                                </form>
+                            </div>
+                            <div id = "div-direita"> 
+                                <p><b>TOTAL: R$15.000</b></p>
+                                <br> <br>
+                                <p><input type="checkbox" name="evento-publico" id="evento-publico"> EVENTO PÚBLICO </p>     
+                                    <br> <br>
+                                <p><input type="checkbox" name="evento-particular" id="evento-particular"> EVENTO PARTICULAR </p>        
+                                    <br> <br>
+                                <p><input type="checkbox" name="pacote-som" id="pacote-som"> PACOTE DE SOM </p>
+                                    <br> <br>
+                                <p><input type="checkbox" name="pacote-iluminaçao" id="pacote-iluminaçao">  PACOTE DE ILUMINAÇÃO </p>
+                                <br> <br>
+                                <p>CASO PREFIRA PAGAMENTO POR BOLETO <a id ="pagar-boleto" href="pagar-boleto">CLIQUE AQUI!</a></p>
+                                <br> <br>
+                                <input id="pagar" type="submit" value="CONFIRMAR PAGAMENTO">
+                            </div>
+                        </div>
+                </div>
+        </main> 
+    </body>
+</html>

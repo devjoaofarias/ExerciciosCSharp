@@ -35,3 +35,4 @@ C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\obj\Debug\netcoreapp2.2
 C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Usuario.g.cshtml.cs
+C:\Users\24055965800\Documents\Exercicios\MVC\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Pagamento.g.cshtml.cs
