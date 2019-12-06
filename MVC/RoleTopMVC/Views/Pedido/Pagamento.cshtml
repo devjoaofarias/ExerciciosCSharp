@@ -11,16 +11,16 @@
                             <div id = "div-esquerda">
                                 <form action="">
                                     <p>NÚMERO DO CARTÃO:</p>
-                                <input id="numero-cartao" type="numero-cartao" name="numero-cartao" placeholder="NÚMERO DO CARTÃO">
+                                <input id="numero-cartao" type="text" name="numero-cartao" placeholder="NÚMERO DO CARTÃO">
                                 <br> <br>  
                                     <p>NOME DO PROPRIETÁRIO:</p> 
-                                <input id="nome-cartao" type="nome-cartao" name="nome-cartao" placeholder="NOME DO PROPRIETÁRIO">
+                                <input id="nome-cartao" type="text" name="nome-cartao" placeholder="NOME DO PROPRIETÁRIO">
                                 <br> <br>   
                                     <p>CVV:</p>
-                                <input id="cvv" type="cvv" name="cvv" placeholder="CVV">
+                                <input id="cvv" type="cvv" name= "number" placeholder="CVV">
                                 <br> <br>
                                     <p>DATA DE VALIDADE:</p>   
-                                <input id="data-validade" type="data" name="data-validade" placeholder="DATA DE VALIDADE">   
+                                <input id="data-validade" type="date" name="data-validade" placeholder="DATA DE VALIDADE">   
                                 <br> <br>
                                 <img id="Bandeira-cartoes" src="~/img/cartoes_.png" alt="Bandeiras do cartão">
                                 </form>
@@ -38,7 +38,7 @@
                                 <br> <br>
                                 <p>CASO PREFIRA PAGAMENTO POR BOLETO <a id ="pagar-boleto" href="pagar-boleto">CLIQUE AQUI!</a></p>
                                 <br> <br>
-                                <input id="pagar" type="submit" value="CONFIRMAR PAGAMENTO">
+                                <input id="pagar" type="submit" value="CONFIRMAR PAGAMENTO" asp-controller="Pedido" asp-action="Dados">
                             </div>
                         </div>
                 </div>

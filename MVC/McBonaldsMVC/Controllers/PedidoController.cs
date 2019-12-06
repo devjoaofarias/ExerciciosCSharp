@@ -40,7 +40,6 @@ namespace McBonaldsMVC.Controllers {
         }
 
         public IActionResult Registrar (IFormCollection form) {
-            ViewData["Action"] = "Pedido";
             Pedido pedido = new Pedido ();
 
             var nomeShake = form["shake"];
