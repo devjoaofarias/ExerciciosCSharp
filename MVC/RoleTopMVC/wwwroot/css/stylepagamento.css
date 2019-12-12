@@ -563,7 +563,7 @@
         width: 100%;
         background-color: #FFC600;
         color: aliceblue;
-        height: 100%;
+        height: 10%;
         font-size: 100%;
         border: 5px solid #FFC600;
         border-radius: 3px;
@@ -573,6 +573,18 @@
     #pagar-boleto {
         text-decoration: none;
         
+    }
+
+    #tipoEvento {
+        width: 101%;
+    }
+
+    #tipoPacote {
+        width: 101%;
+    }
+
+    #publicoPrivado {
+        width: 101%;
     }
         
 

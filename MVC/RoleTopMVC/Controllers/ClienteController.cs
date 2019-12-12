@@ -7,6 +7,7 @@ using RoleTopMVC.Repositories;
 using RoleTopMVC.ViewModels;
 
 public class ClienteController : AbstractController {
+    private AluguelRepository aluguelRepository = new AluguelRepository ();
     private ClienteRepository clienteRepository = new ClienteRepository ();
 
     [HttpGet]
@@ -21,7 +22,6 @@ public class ClienteController : AbstractController {
     [HttpPost]
 
     public IActionResult Login (IFormCollection form) {
-        ViewData["Action"] = "Login";
         try {
             System.Console.WriteLine ("==================");
             System.Console.WriteLine (form["email"]);
@@ -76,14 +76,6 @@ public class ClienteController : AbstractController {
         return RedirectToAction ("Index", "Home");
     }
 
-    public IActionResult Usuario () {
-        return View (new BaseViewModel () {
-            NomeView = "Usuario",
-                UsuarioEmail = ObterUsuarioSession (),
-                UsuarioNome = ObterUsuarioNomeSession ()
-        });
-    }
-
     public IActionResult Pagamento () {
         return View (new BaseViewModel () {
             NomeView = "Pagamento",
@@ -92,4 +84,17 @@ public class ClienteController : AbstractController {
         });
     }
 
+     public IActionResult Usuario ()
+        {
+            var emailCliente = ObterUsuarioSession();
+            var alugueisCliente = aluguelRepository.ObterTodosPorCliente(emailCliente);
+
+            return View(new HistoricoViewModel()
+            {
+                formaPagamento = alugueisCliente,
+                NomeView = "Usuario",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
+        }
 }

@@ -2986,11 +2986,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\24055965800\\Documents\\Exercicios\\MVC\\RoleTopMVC\\Views\\Calendario\\Index.cshtml",
-      "TargetPath": "Views\\Calendario\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\24055965800\\Documents\\Exercicios\\MVC\\RoleTopMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

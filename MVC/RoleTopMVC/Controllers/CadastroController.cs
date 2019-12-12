@@ -19,7 +19,6 @@ public class CadastroController : AbstractController {
     }
 
     public IActionResult CadastrarCliente (IFormCollection form) {
-        ViewData["Action"] = "Cadastro";
         try {
             Cliente cliente = new Cliente (
                 form["nome"],
@@ -30,7 +29,7 @@ public class CadastroController : AbstractController {
 
 
             cliente.TipoUsuario = (uint) TiposUsuario.CLIENTE;
-            if(!string.IsNullOrEmpty(form["name"]) && !string.IsNullOrEmpty(form["email"]) && !string.IsNullOrEmpty(form["cpf"]) && !string.IsNullOrEmpty(form["telefone"]) && !String.IsNullOrEmpty(form["senha"])) {
+            if(!string.IsNullOrEmpty(form["nome"]) && !string.IsNullOrEmpty(form["email"]) && !string.IsNullOrEmpty(form["cpf"]) && !string.IsNullOrEmpty(form["telefone"]) && !String.IsNullOrEmpty(form["senha"])) {
                 clienteRepository.Inserir (cliente);
 
             return View ("Sucesso", new RespostaViewModel () {

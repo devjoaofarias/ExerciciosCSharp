@@ -32,12 +32,13 @@ namespace RoleTopMVC.Repositories
                 if(ExtrairValorDoCampo("email", item).Equals(email))
                 {
                     Cliente c = new Cliente();
+                    c.TipoUsuario = uint.Parse(ExtrairValorDoCampo("tipo_usuario", item));
                     c.Nome = ExtrairValorDoCampo("nome", item);
                     c.Email = ExtrairValorDoCampo("email", item);
                     c.Cpf = ExtrairValorDoCampo ("cpf", item);
-                    c.Telefone = ExtrairValorDoCampo("telefone", item);
                     c.Senha = ExtrairValorDoCampo("senha", item);
-                    c.TipoUsuario = uint.Parse(ExtrairValorDoCampo("tipo_usuario", item));
+                    c.Telefone = ExtrairValorDoCampo("telefone", item);
+                    
 
                     return c;
                 }

@@ -1,10 +1,10 @@
- <link href="~/css/styleusuario.css" rel="stylesheet" type="text/css">
+@model RoleTopMVC.ViewModels.HistoricoViewModel
+<link href="~/css/styleusuario.css" rel="stylesheet" type="text/css">
 <style>
         table {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             border-collapse: collapse;
             width: 90%;
-            height: 50%;
             margin-left: 5%;
             margin-right: 5%;
             background-color: #ffc600;
@@ -31,162 +31,35 @@
             </div>
         <div id="fundo"> 
             <table> 
+        <thead>
                 <tr>
                     <th>DATA</th>
                     <th>TIPO DE EVENTO</th>
                     <th>PÚBLICO/PRIVADO</th>
-                    <th>ILUMINAÇÃO</th>
-                    <th>SOM</th>
+                    <th>PACOTES</th>
                     <th>VALOR PAGO</th>
                     <th>STATUS</th>
-                    <th>OPÇÕES</th>
                 </tr>
+        </thead>
+        <tbody>
+                @foreach (var formaPagamento in Model.formaPagamento)
+                {
                 <tr>
-                    <td>23/05/19</td>
-                    <td>Casamento</td>
-                    <td>Privado</td>
-                    <td>Inclusa</td>
-                    <td>Incluso</td>
-                    <td>R$7.000</td>
-                    <td>Já realizado</td>
-                    <td>CANCELAR</td>
+                    <td>@formaPagamento.DataEvento</td>
+                    <td>@formaPagamento.tipoEvento</td>
+                    <td>@formaPagamento.publicoPrivado</td>
+                    <td>@formaPagamento.tipoPacote</td>
+                    <td>@formaPagamento.tipoPacote</td>
+                    <td>@formaPagamento.PrecoTotal</td>
+                    <td>@formaPagamento.Status</td>
                 </tr>
-                <tr>
-                    <td>15/11/19</td>
-                    <td>Balada</td>
-                    <td>Pública</td>
-                    <td>Inclusa</td>
-                    <td>Não Incluso</td>
-                    <td>R$5.500</td>
-                    <td>Aceito</td>
-                    <td id="cancelar"><a href="">CANCELAR</td></a>
-                </tr>
-                <!--TRs para criar espaço-->
-                <tr>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-                <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                </tr>
-
+                }
+                
+        </tbody>
             </table>
             <br>
             <div id="botao-agendar">
-               <a id="bt-Calendario" asp-controller="Calendario" asp-action="Index"> <h3>AGENDE UM HORÁRIO</h3> </a>
+               <a id="bt-Agendar" asp-controller="Pedido" asp-action="Pagamento"> <h3>AGENDE UM HORÁRIO</h3> </a>
             </div>
             <div id="img-chat"> 
                     <a class="chat" href="">  <img class="chat" src="~/img/CHAT.png" alt="chatbox"> </a>

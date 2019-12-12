@@ -1,11 +1,11 @@
- <link href="~/css/styleadministrador.css" rel="stylesheet" type="text/css">
+@model RoleTopMVC.ViewModels.AdministradorViewModel
+<link href="~/css/styleadministrador.css" rel="stylesheet" type="text/css">
 <style>
         
             table {
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 border-collapse: collapse;
                 width: 90%;
-                height: 50%;
                 margin-left: 5%;
                 margin-right: 5%;
                 background-color: #ffc600;
@@ -18,7 +18,7 @@
     
             th {
                 font-size: 130%;
-                background-color: #949494;
+                background-color: #dbdada;
             }
             
             </style>
@@ -31,129 +31,63 @@
                        <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a> 
                 </div>
             <div id="fundo"> 
+            <div id="painel">
+                <div class="box-status-pedidos aprovados">
+                    <h3>Aprovados</h3>
+                    <p>@Model.AlugueisAprovados</p>
+                </div>
+                <div class="box-status-pedidos pendentes">
+                    <h3>Pendentes</h3>
+                    <p>@Model.AlugueisPendentes</p>
+                </div>
+                <div class="box-status-pedidos reprovados">
+                    <h3>Reprovados</h3>
+                    <p>@Model.AlugueisReprovados</p>
+                </div>
+            </div>
                 <table>
+                    <thead>
                     <tr>
                         <th>DATA</th>
                         <th>CLIENTE</th>
                         <th>EMAIL</th>
                         <th>NÚMERO</th>
+                        <th>STATUS</th>
                         <th>TIPO DE EVENTO</th>
                         <th>PÚBLICO/PRIVADO</th>
-                        <th>ILUMINAÇÃO</th>
-                        <th>SOM</th>
-                        <th>ACEITAR</th>
+                        <th>PACOTES</th>
+                        <th>PREÇO</th>
+                        <th colspan="2" rowspan="1">ACEITAR</th>
                     </tr>
+                    </thead>
+
+                    <tfoot>
                     <tr>
-                        <td>23/05/19</td>
-                        <td>Fernanda Oliveira</td>
-                        <td>Fernanda.oli@gmai.com</td>
-                        <td>(11)97070-7070</td>
-                        <td>Casamento</td>
-                        <td>Privado</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Aceito</td>
+                        <td colspan="11">
+                            <p>Pedidos atualizados em @DateTime.Now</p>
+                        </td>
                     </tr>
-                    <tr>
-                        <td>15/11/19</td>
-                        <td>Fernanda Oliveira</td>
-                        <td>Fernanda.oli@gmail.com</td>
-                        <td>(11)97070-7070</td>
-                        <td>Balada</td>
-                        <td>Público</td>
-                        <td>Inclusa</td>
-                        <td>Não Incluso</td>
-                        <td>Aceito</td>
-                    </tr>
-                    <tr>
-                        <td>28/11/19</td>
-                        <td>Pedro Carvalho</td>
-                        <td>Pedro.caca@gmail.com</td>
-                        <td>(11)97070-8080</td>
-                        <td>Balada</td>
-                        <td>Público</td>
-                        <td>Inclusa</td>
-                        <td>Incluso</td>
-                        <td><a id="sim" href="">SIM</a> - <a id="nao" href="">NÃO</a></td>
-                        <!--TRs criadas para compor espaço-->
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>    
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
+                </tfoot>
+
+                <tbody>
+                    <@foreach (var aluguel in Model.Alugueis)
+                    {<tr>
+                        <td>@aluguel.DataEvento</td>
+                        <td>@aluguel.NomeCartao</td>
+                        <td>@aluguel.Email</td>
+                        <td>@aluguel.Telefone</td>
+                        <td>@aluguel.Status</td>
+                        <td>@aluguel.tipoEvento</td>
+                        <td>@aluguel.publicoPrivado</td>
+                        <td>@aluguel.tipoPacote</td>
+                        <td>@aluguel.PrecoTotal</td>
+                        <td><a href='@Url.Action("Aprovar", "Pedido", new {id = @aluguel.Id})'><i class="fas fa-check"></i></a></td>
+                        <td><a href='@Url.Action("Reprovar", "Pedido", new {id = @aluguel.Id})'><i class="fas fa-times"></i></a></td>
+                        
+                    </tr> 
+                    }
+                    </tbody>
+                    
                 </table>
                 <br>
                 <div id="botao-responder"> 

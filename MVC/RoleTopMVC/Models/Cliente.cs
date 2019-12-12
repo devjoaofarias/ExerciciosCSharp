@@ -16,6 +16,7 @@ namespace RoleTopMVC.Models
         }
 
         public Cliente (string nome, string email, string cpf, string telefone, string senha) {
+            this.TipoUsuario = TipoUsuario;
             this.Nome = nome;
             this.Email = email;
             this.Cpf = cpf;

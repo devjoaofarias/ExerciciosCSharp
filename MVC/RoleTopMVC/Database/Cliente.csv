@@ -1,12 +1,2 @@
-tipo_usuario=1;nome=lucas;email=lucas@gmail.com;cpf=24055965800;senha=123456;telefone=11955577314;
-tipo_usuario=0;nome=joao;email=admin@gmail.com;cpf=;senha=123;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=;email=;cpf=;senha=;telefone=;
-tipo_usuario=1;nome=joao;email=;cpf=24054;senha=123;telefone=44585;
-tipo_usuario=1;nome=Joao santos;email=joao.santos.farias.2003@gmail.com;cpf=;senha=123456;telefone=1199930714;
+tipo_usuario=1;nome=lucas;email=lucas@gmail.com;cpf=55555558;senha=123456;telefone=55555558;
+tipo_usuario=0;nome=admin;email=admin@gmail.com;cpf=;senha=123;telefone=;
