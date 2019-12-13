@@ -13,6 +13,8 @@ namespace RoleTopMVC.Repositories {
         }
 
         public bool Inserir (FormaPagamento formaPagamento) {
+            var quantidadePedidos = File.ReadAllLines(PATH).Length;
+            formaPagamento.Id = (ulong) ++quantidadePedidos;
             var linha = new string[] { PrepararRegistroCSV (formaPagamento) };
             File.AppendAllLines (PATH, linha);
 
@@ -21,10 +23,10 @@ namespace RoleTopMVC.Repositories {
 
         public List<FormaPagamento> ObterTodosPorCliente(string emailCliente)
         {
-            var alugueis = ObterTodos();
+            
             List<FormaPagamento> alugueisCliente = new List<FormaPagamento>();
 
-            foreach (var aluguel in alugueis)
+            foreach (var aluguel in ObterTodos())
             {
                 if(aluguel.Cliente.Email.Equals(emailCliente))
                 {
@@ -39,9 +41,9 @@ namespace RoleTopMVC.Repositories {
             List<FormaPagamento> formaPagamentos = new List<FormaPagamento> ();
 
             foreach (var item in linhas) {
-                Cliente c = new Cliente();
                 FormaPagamento formas = new FormaPagamento ();
-                formas.Id = ulong.Parse(ExtrairValorDoCampo("id", item));
+
+                formas.Id = (ulong) int.Parse(ExtrairValorDoCampo("id", item));
                 formas.DataEvento = DateTime.Parse(ExtrairValorDoCampo ("data-evento", item));
                 formas.NomeCartao = ExtrairValorDoCampo ("nomeCartao", item);
                 formas.Email = ExtrairValorDoCampo ("email", item);
@@ -54,15 +56,17 @@ namespace RoleTopMVC.Repositories {
                 formas.Cvv = ExtrairValorDoCampo ("Cvv", item);
                 formas.DataValidade = DateTime.Parse (ExtrairValorDoCampo ("data-validade", item));
                 formas.PrecoTotal = double.Parse(ExtrairValorDoCampo("precoTotal", item));
-               
+
+                ClienteRepository clienteRepository = new ClienteRepository();
+                formas.Cliente = clienteRepository.ObterPor(formas.Email);
+
                 formaPagamentos.Add (formas);
+            
             }
+
             return formaPagamentos;
         }
-        private string PrepararRegistroCSV (FormaPagamento formaPagamento) {
-            return $"data-evento={formaPagamento.DataEvento};nomeCartao={formaPagamento.NomeCartao};email={formaPagamento.Email};telefone={formaPagamento.Telefone};statusAluguel={formaPagamento.Status};tipoEvento={formaPagamento.tipoEvento};publicoPrivado={formaPagamento.publicoPrivado};tipoPacote={formaPagamento.tipoPacote};numeroCartao={formaPagamento.NumeroCartao};Cvv={formaPagamento.Cvv};data-validade={formaPagamento.DataValidade};precoTotal={formaPagamento.PrecoTotal};";
-        }
-
+       
          public FormaPagamento ObterPor(ulong id)
         {
             var alugueisTotais = ObterTodos();
@@ -75,7 +79,7 @@ namespace RoleTopMVC.Repositories {
             }
             return null;
         }
-                public bool Atualizar(FormaPagamento formaPagamento)
+        public bool Atualizar(FormaPagamento formaPagamento)
         {
             var alugueisTotais = File.ReadAllLines(PATH);
             var aluguelCSV = PrepararRegistroCSV(formaPagamento);
@@ -101,6 +105,14 @@ namespace RoleTopMVC.Repositories {
 
             return resultado;
         }
+
+         private string PrepararRegistroCSV (FormaPagamento formaPagamento) {
+            var i = File.ReadAllLines(PATH).Length;
+            i++;
+            formaPagamento.Id = (ulong) i; 
+            return $"id={formaPagamento.Id};data-evento={formaPagamento.DataEvento};nomeCartao={formaPagamento.NomeCartao};email={formaPagamento.Email};telefone={formaPagamento.Telefone};statusAluguel={formaPagamento.Status};tipoEvento={formaPagamento.tipoEvento};publicoPrivado={formaPagamento.publicoPrivado};tipoPacote={formaPagamento.tipoPacote};numeroCartao={formaPagamento.NumeroCartao};Cvv={formaPagamento.Cvv};data-validade={formaPagamento.DataValidade};precoTotal={formaPagamento.PrecoTotal};";
+        }
+
 
 
     }

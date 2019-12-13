@@ -29,12 +29,12 @@ namespace RoleTopMVC.Controllers {
             if (!string.IsNullOrEmpty(nomeUsuarioLogado))
             {
                 fpv.UsuarioNome = nomeUsuarioLogado;
-            }
-
-            var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
-            if (clienteLogado != null)
-            {
+                var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
                 fpv.cliente = clienteLogado;
+            }
+            else
+            {
+                return View(fpv);
             }
 
             fpv.NomeView="Pagamento";
@@ -58,7 +58,7 @@ namespace RoleTopMVC.Controllers {
                 tipoEvento = form["tipoEvento"],
                 publicoPrivado = form["publicoPrivado"],
                 tipoPacote = form["tipoPacote"],
-                Id = 0
+                
             };
             if (aluguelRepository.Inserir(formaPagamento)) {
                 return View ("Sucesso", new RespostaViewModel ("Pedido Concluido"));
@@ -74,9 +74,11 @@ namespace RoleTopMVC.Controllers {
             var aluguel = aluguelRepository.ObterPor(id);
             aluguel.Status = (uint) StatusAluguel.APROVADO;
 
+            
             if(aluguelRepository.Atualizar(aluguel))
             {
-                return RedirectToAction("administrador", "Administrador");
+                return RedirectToAction("Administrador", "Administrador");
+                
             }
             else
             {
@@ -99,7 +101,7 @@ namespace RoleTopMVC.Controllers {
 
             if(aluguelRepository.Atualizar(aluguel))
             {
-                return RedirectToAction("administrador", "Administrador");
+                return RedirectToAction("Administrador", "Administrador");
             }
             else
             {

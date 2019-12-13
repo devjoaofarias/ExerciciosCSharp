@@ -49,11 +49,17 @@
                     <td>@formaPagamento.tipoEvento</td>
                     <td>@formaPagamento.publicoPrivado</td>
                     <td>@formaPagamento.tipoPacote</td>
-                    <td>@formaPagamento.tipoPacote</td>
-                    <td>@formaPagamento.PrecoTotal</td>
-                    <td>@formaPagamento.Status</td>
+                    <td>R$:15.000</td>
+                    <td>@if(@formaPagamento.Status == 0) {
+                        <p> REPROVADO </p> } else if (@formaPagamento.Status == 1) {
+                            <p> PENDENTE </p>
+                        } else {
+                            <p> APROVADO </p>
+                        }
+                    </td>
                 </tr>
                 }
+                
                 
         </tbody>
             </table>

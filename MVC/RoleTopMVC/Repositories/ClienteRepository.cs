@@ -29,15 +29,15 @@ namespace RoleTopMVC.Repositories
             var linhas = File.ReadAllLines(PATH);
             foreach (var item in linhas)
             {
-                if(ExtrairValorDoCampo("email", item).Equals(email))
+                if(ExtrairValorDoCampo("cliente_email", item).Equals(email))
                 {
                     Cliente c = new Cliente();
                     c.TipoUsuario = uint.Parse(ExtrairValorDoCampo("tipo_usuario", item));
-                    c.Nome = ExtrairValorDoCampo("nome", item);
-                    c.Email = ExtrairValorDoCampo("email", item);
-                    c.Cpf = ExtrairValorDoCampo ("cpf", item);
-                    c.Senha = ExtrairValorDoCampo("senha", item);
-                    c.Telefone = ExtrairValorDoCampo("telefone", item);
+                    c.Nome = ExtrairValorDoCampo("cliente_nome", item);
+                    c.Email = ExtrairValorDoCampo("cliente_email", item);
+                    c.Cpf = ExtrairValorDoCampo ("cliente_cpf", item);
+                    c.Senha = ExtrairValorDoCampo("cliente_senha", item);
+                    c.Telefone = ExtrairValorDoCampo("cliente_telefone", item);
                     
 
                     return c;
@@ -48,7 +48,7 @@ namespace RoleTopMVC.Repositories
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"tipo_usuario={cliente.TipoUsuario};nome={cliente.Nome};email={cliente.Email};cpf={cliente.Cpf};senha={cliente.Senha};telefone={cliente.Telefone};";
+            return $"tipo_usuario={cliente.TipoUsuario};cliente_nome={cliente.Nome};cliente_email={cliente.Email};cliente_cpf={cliente.Cpf};cliente_senha={cliente.Senha};cliente_telefone={cliente.Telefone};";
         }
     }
 }

@@ -24,12 +24,12 @@ public class ClienteController : AbstractController {
     public IActionResult Login (IFormCollection form) {
         try {
             System.Console.WriteLine ("==================");
-            System.Console.WriteLine (form["email"]);
-            System.Console.WriteLine (form["senha"]);
+            System.Console.WriteLine (form["cliente_email"]);
+            System.Console.WriteLine (form["cliente_senha"]);
             System.Console.WriteLine ("==================");
 
-            var usuario = form["email"];
-            var senha = form["senha"];
+            var usuario = form["cliente_email"];
+            var senha = form["cliente_senha"];
 
             if (!string.IsNullOrEmpty (usuario) && !string.IsNullOrEmpty (senha)) {
                 var cliente = clienteRepository.ObterPor (usuario);
